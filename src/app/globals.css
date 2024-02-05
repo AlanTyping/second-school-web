@@ -12,6 +12,20 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --bg: #001d3d;
+  --bg: #070d59;
   --darkBg: #021321;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w {
+  width: 100%;
+}
+
+.h {
+  height: 100%;
 }
