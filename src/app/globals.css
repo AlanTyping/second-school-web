@@ -16,16 +16,9 @@
   --darkBg: #021321;
 
   /*hamburger button*/
-  /* --bar-width: 60px;
-  --bar-height: 8px;
-  --hamburger-gap: 6px;
-  --foreground: #333;
-  --background: #fff;
-  --animation-timing: 200ms ease-in-out;
-  --hamburger-height: calc(var(--hamburger-height) * 3 + var(var(--hamburger-gap) * 2)) */
 
-  --bar-width: 60px;
-  --bar-height: 8px;
+  --bar-width: 40px;
+  --bar-height: 4px;
   --hamburger-gap: 6px;
   --foreground: #333;
   --background: white;
