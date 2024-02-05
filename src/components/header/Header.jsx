@@ -8,7 +8,7 @@ import DropContainer from '../drop-container/DropContainer';
 
 const secciones = [
   {
-    name: 'inicio',
+    name: 'Inicio',
     link: '/',
   },
   {
