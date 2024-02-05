@@ -43,16 +43,20 @@ export default function Header() {
 
   return (
     <header className='fixed top-0 w-full h-auto bg-white'>
-      <div className="h-[46px] w bg-[var(--bg)]"></div>
-      <div className="h-[66px] w shadow-[0px_0px_10px_0px_rgba(0,0,0,0.5)] flex items-center justify-start">
+      <div className="hidden md:flex h-[46px] w bg-[var(--bg)]"></div>
+      <div className="h-[120px] md:h-[66px] w shadow-[0px_0px_10px_0px_rgba(0,0,0,0.5)] flex items-center justify-start">
       
-        <div className="flex-center relative h w-[300px]">
-          <Link className='absolute top-[-35px]' href="/">
+        <div className="flex-center relative h w-[120px] md:w-[300px]">
+          <Link className='md:absolute top-[-35px]' href="/">
             <Image src={logo} alt='logo' className='min-w-[85%] h-auto' />
           </Link>
         </div>
 
-        <div className="h w-[90%]">
+        <label className="hamburger-menu">
+          <input type="checkbox" />
+        </label>
+
+        <div className="h w-[90%] hidden md:flex">
           <nav className='justify-center h w-[80%]'>
             <ul className='flex-center flex-row h'>
               {
