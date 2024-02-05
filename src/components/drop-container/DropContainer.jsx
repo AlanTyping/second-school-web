@@ -4,7 +4,7 @@ import Li from '../li/Li';
 export default function DropContainer({secciones}) {
 
   return (
-    <ul className="flex-center flex-col w">
+    <ul className="flex-center flex-col w bg-white">
     {
       secciones.map(({ link, name, subsecciones }) => (
         <Li

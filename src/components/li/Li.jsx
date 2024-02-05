@@ -11,14 +11,14 @@ export default function Li({ name, link, subsecciones }) {
 
 
   return (
-    <li key={name} className="flex items-center justify-start my-1 w py-2 px-8">
+    <li key={name} className="flex items-center justify-start my-1 w py-2 px-8 text-[var(--green)]">
 
       {subsecciones ?
         <div className='w flex flex-col'>
 
           <div onClick={() => setExtendNav((x) => !x)} className="flex flex-row w">
             <span className="text-[1.2rem]">{name}</span>
-            <Image src={down} height={25} width={25} alt='' />
+            <Image src={down} height={25} width={25} alt='' className={`${extendNav && 'rotate-[180deg]'}`} />
           </div>
 
           {extendNav &&

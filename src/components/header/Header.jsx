@@ -117,7 +117,7 @@ export default function Header() {
 
       {hamburger &&
         <div className="relative">
-          <nav className="absolute w-full z-[2] max-h-[50vh] overflow-y-auto">
+          <nav className="absolute w-full z-[2] max-h-[50vh] shadow-[0px_10px_10px_0px_rgba(0,0,0,0.5)] overflow-y-auto">
             <DropContainer secciones={secciones} />
           </nav>
         </div>

@@ -9,18 +9,17 @@
 }
 
 :root {
-  --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --bg: #070d59;
   --darkBg: #021321;
+  --green: #01af47;
 
   /*hamburger button*/
 
   --bar-width: 40px;
   --bar-height: 4px;
   --hamburger-gap: 6px;
-  --foreground: #333;
   --background: white;
   --hamburger-margin: 8px;
   --animation-timing: 200ms ease-in-out;
@@ -54,7 +53,7 @@
   content: "";
   width: var(--bar-width);
   height: var(--bar-height);
-  background-color: var(--foreground);
+  background-color: var(--green);
   transform-origin: left center;
   transition: opacity var(--animation-timing), width var(--animation-timing);
 }
